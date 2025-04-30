@@ -5,3 +5,11 @@
   - `VITE_API_URL`: URL of backend deployment, **without** trailing slash (e.g. `https://example.com/api`)
 - server
   - `DB_URI`: Mongo URI of database
+
+## Startup
+- server
+  - `cd server`
+  - `node bin/www`
+- frontend
+  - `cd frontend`
+  - `npm run dev`
