@@ -13,5 +13,5 @@
   - `DBURI="<database URI>" PORT="80" node bin/www`
 - frontend
   - `cd frontend`
-  - `npm run dev` (if running a dev build, with hot updates), OR
-  - `npm run build` and place `dist/` directory in publicly accessible web directory
+  - `VITE_API_URL="<url of API endpoint>" npm run dev` (if running a dev build, with hot updates), OR
+  - `VITE_API_URL="<url of API endpoint>" npm run build` and place `dist/` directory in publicly accessible web directory
